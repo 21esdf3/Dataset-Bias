@@ -27,7 +27,7 @@ Download images from each dataset and organize them as follows:
 ## Training
 
 ### Basic Recipe
-We list commands for training `convnext_tiny` on classifying three datasets, each of which contains 100k samples.
+We list commands for training `convnext_tiny` on classifying three datasets, each of which contains 1M samples.
 - For training other models, change `--model` accordingly, e.g., to `vit_small`, `resnet50`, `vgg16`, `alexnet`.
 - Our results were produced with 4 nodes, each with 8 gpus. Below we give example commands on both multi-node and single-machine setups.
 
